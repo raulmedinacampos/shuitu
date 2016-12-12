@@ -1,0 +1,170 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	color: #464646;
+}
+
+h1 {
+	font-size: 20px;
+	color: #01649F;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 18px;
+	color: #01649F;
+	font-weight: bold;
+}
+
+a {
+	color: #3394CE;
+}
+
+a:hover {
+	color: #3394CE;
+}
+
+section h1 {
+	display: table;
+	margin: 0 auto;
+	padding: 8px 16px 3px;
+	border-left: 3px solid;
+	border-right: 3px solid;
+	text-transform: uppercase;
+}
+
+header {
+	margin: 10px 0 20px;
+}
+
+header .row {
+    align-items: center;
+    display: flex;
+}
+
+header .logo {
+	max-width: 120px;
+}
+
+header .glyphicon-user {
+	margin-right: 5px;
+	padding: 9px;
+	background-color: #01649F;
+    font-size: 22px;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+header .nombre {
+	color: #01649F;
+}
+
+header .salir {
+	margin-left: 20px;
+	padding: 0 3px 1px;
+	color: #01649F;
+	border-bottom: 4px solid;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header .salir:hover {
+	color: #3394CE;
+}
+
+footer {
+	padding: 30px 0 20px;
+	background-color: #464646;
+	color: #FFFFFF;
+	border-top: 1px solid #656565;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.datos {
+	color: #3394CE;
+}
+
+.table {
+	margin: 25px 0 50px;
+}
+
+.table > thead > tr > th {
+	border-bottom: 3px solid #9B9B9B;
+}
+
+.table th {
+	color: #464646;
+}
+
+.table td {
+	color: #3394CE;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n) {
+	background-color: #CCCCCC;
+}
+
+.titulo {
+	padding: 10px 15px;
+	margin-top: 40px;
+	background-color: #3394CE;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.titulo + .row {
+    padding: 0 20px;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+	header {
+		margin: 10px 0 60px;
+	}
+	
+	header .row {
+		display: table;
+	}
+	
+	header .row > div, 
+	header .row .text-right {
+		text-align: center;
+	}
+	
+	footer p {
+		text-align: center;
+	}
+	
+	footer .text-right {
+		text-align: center;
+	}
+	
+	#consultas .row > div {
+		margin-bottom: 25px;
+	}
+	
+	#consultas .row > div p {
+		margin: 0 0 2px;
+	}
+	
+	#consultas .table-responsive {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	header .navbar-brand img {
+		max-width: 110px;
+	}
+	
+	.titulo:first-of-type {
+		margin-bottom: 30px;
+	}
+}

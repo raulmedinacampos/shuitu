@@ -1,0 +1,700 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	color: #464646;
+}
+
+h1 {
+	font-size: 20px;
+	color: #01649F;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 18px;
+	color: #01649F;
+	font-weight: bold;
+}
+
+a {
+	color: #3394CE;
+}
+
+a:hover {
+	color: #3394CE;
+}
+
+.top30 {
+	margin-top: 30px;
+}
+
+.top50 {
+	margin-top: 50px;
+}
+
+section h1 {
+	display: table;
+	margin: 0 auto;
+	padding: 8px 16px 3px;
+	border-left: 3px solid;
+	border-right: 3px solid;
+	text-transform: uppercase;
+}
+
+header {
+	position: fixed;
+	top: 20px;
+	width: 100%;
+	background-color: rgba(51, 148, 206, 0);
+	transition: background-color 0.5s ease, top 0.5s ease;
+	z-index: 900;
+}
+
+header .navbar {
+	margin-bottom: 0;
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header .navbar-brand {
+	padding: 0 15px 5px;
+}
+
+header .navbar-default .navbar-nav > li a {
+	padding-top: 50px;
+	padding-bottom: 45px;
+	color: #01649F;
+	transition: color 0.5s ease;
+}
+
+header .navbar-default .navbar-nav > li a:focus, 
+header .navbar-default .navbar-nav > li a:hover {
+	background-color: rgba(1, 100, 159, 0);
+	color: #3394CE;
+	text-decoration: none;
+}
+
+header .navbar-default .navbar-nav > .active a, 
+header .navbar-default .navbar-nav > .active a:focus, 
+header .navbar-default .navbar-nav > .active a:hover {
+	background-color: rgba(51, 148, 206, 0);
+	color: #3394CE;
+	transition: background-color 0.5s ease;
+}
+
+header .navbar-default .navbar-nav > li div:focus, 
+header .navbar-default .navbar-nav > li div:hover, 
+header .navbar-default .navbar-nav > .active div, 
+header .navbar-default .navbar-nav > .active div:focus,
+header .navbar-default .navbar-nav > .active div:hover {
+	border-color: #3394CE;
+}
+
+header .navbar-brand img {
+	max-width: 120px;
+}
+
+/* Distribuir menú a lo ancho*/
+header .nav {
+	display: table;
+	width: calc(100% - 120px);
+}
+
+header .navbar-nav > li {
+	display: table-cell;
+	float: none;
+	background-color: rgba(51, 148, 206, 0);
+	text-align: center;
+	transition: background-color 0.5s ease;
+}
+/* Fin distribuir menú */
+
+header .navbar-nav li:last-child div {
+	display: inline-block;
+	padding: 8px 15px;
+	border: 2px solid #01649F;
+	border-radius: 8px;
+    
+}
+
+footer {
+	padding: 30px 0 20px;
+	background-color: #464646;
+	color: #FFFFFF;
+	border-top: 1px solid #656565;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.col-md-4l {
+	position: relative;
+	float: left;
+	min-height: 1px;
+	width: 35.5%;
+}
+
+.col-md-4s {
+	position: relative;
+	float: left;
+	min-height: 1px;
+	width: 28.6%;
+}
+
+.col-md-10s {
+	position: relative;
+	float: left;
+	min-height: 1px;
+	width: 79.5%;
+}
+
+#inicio {
+	display: flex;
+	height: 100vh;
+	background: url('../images/home.jpg') no-repeat top center scroll;
+	background-size: cover;
+	align-items: center;
+}
+
+#inicio > div {
+	margin: 0 auto;
+	padding: 40px 60px;
+	background: rgba(255,255,255,1);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 75%);
+}
+
+#inicio h1 {
+	padding: 8px 60px 3px;
+	font-size: 38px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: none;
+}
+
+#nosotros {
+	padding: 50px 0 40px;
+	text-align: justify;
+}
+
+#nosotros img {
+	margin-top: 20px;
+}
+
+#ofrecemos {
+	padding: 50px 0 75px;
+}
+
+#ofrecemos h1 {
+	margin-bottom: 30px;
+}
+
+#ofrecemos .caja {
+	position: relative;
+	padding: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#ofrecemos .contenedor-servicio {
+	padding: 0 5px;
+}
+
+#ofrecemos .servicios {
+	float: none;
+	margin: 20px auto 0;
+}
+
+#ofrecemos .servicio {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+	transition: opacity 0.5s ease;
+	opacity: 0;
+}
+
+#ofrecemos .caja.sombra:hover .servicio {
+	transition: transform 1s ease;
+	opacity: 1;
+}
+
+#ofrecemos .sombra {
+	margin: 10px 0;
+	box-shadow: 0px 0px 8px 2px rgba(70,70,70,0.46);
+}
+
+#ofrecemos .row:last-of-type .sombra {
+	margin: 2px 0;
+}
+
+#ofrecemos #info-especialidad {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	color: #01649F;
+	background-color: #FFFFFF;
+	overflow: auto;
+	z-index: 999;
+}
+
+#ofrecemos #info-especialidad h2 {
+	margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #01649F;
+	text-align: center;
+}
+
+#ofrecemos #info-especialidad h5 {
+	margin-top: 22px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#ofrecemos #info-especialidad ul {
+	padding-left: 15px;
+}
+
+#ofrecemos #info-especialidad li {
+	padding-left: 15px;
+}
+
+#ofrecemos #info-especialidad .img-responsive {
+    margin: 0 auto;
+}
+
+#ofrecemos #info-especialidad .cerrar {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	max-width: 100px;
+	cursor: pointer;
+}
+
+#contacto {
+	padding: 35px 0 10px;
+	background-color: #464646;
+	color: #FFFFFF;
+}
+
+#contacto h1 {
+	margin-bottom: 40px;
+	color: #FFFFFF;
+}
+
+#contacto h4 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#contacto .info-clinica {
+	margin-top: 40px;
+}
+
+#contacto .info-clinica > img {
+	float: left;
+    margin: 0 10px 40px -10px;
+    max-width: 45px;
+}
+
+#contacto .info-clinica > img:nth-of-type(2) {
+    margin: 0 10px 75px -10px;
+}
+
+#contacto .info-clinica > p {
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+
+#contacto #clinicas {
+	padding: 10px;
+	height: 44px;
+	background-color: transparent;
+	border-radius: 0;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 44px;
+}
+
+#contacto #mapa-ubicacion {
+	margin-top: -10px;
+	padding: 0;
+	width: 100%;
+	border-radius: 300px;
+	z-index: 1;
+}
+
+#contacto #mapa-ubicacion::after {
+	display: inline-block;
+	padding: 50% 0;
+	content: "";
+}
+
+
+/* Estilos del historial */
+#historial {
+	background: rgba(139,205,244,1);
+	background: radial-gradient(ellipse at top, rgba(139,205,244,1) 0%, rgba(6,13,36,1) 100%);
+}
+
+#historial .centrado-vertical {
+	display: flex;
+	min-height: 90%;
+	align-items: center;
+}
+
+#historial .contenedor-login {
+	float: none;
+	margin: auto;
+	padding: 5px 0;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 15px;
+}
+
+#historial .contenedor-logo {
+    padding: 0 20px 32px;
+}
+
+#historial .contenedor-logo img {
+	margin: auto;
+	max-width: 25%;
+}
+
+#historial .campos-login {
+	margin: 45px auto 70px;
+	width: 40%;
+}
+
+#historial .campos-login input, 
+#historial .campos-login select {
+	margin-bottom: 12px;
+	font-size: 12px;
+	border-radius: 6px;
+}
+
+#historial .campos-login input::-webkit-input-placeholder {
+	color: rgba(51,148,206,0.75);
+}
+
+#historial .campos-login input::-moz-placeholder {
+	color: rgba(51,148,206,0.75);
+}
+
+#historial .campos-login input:-ms-input-placeholder {
+	color: rgba(51,148,206,0.75);
+}
+
+#historial .campos-login input:-moz-placeholder {
+	color: rgba(51,148,206,0.75);
+}
+
+#historial .campos-login select option {
+	color: #555555;
+}
+
+#historial .campos-login .btn {
+	width: 100%;
+	font-size: 12px;
+	border-radius: 6px;
+	line-height: 1.7;
+}
+
+#historial .campos-login .btn-primary {
+	border: none;
+	background-color: #01649F;
+}
+
+#historial .campos-login .btn-primary:hover,
+#historial .campos-login .btn-primary:focus {
+	background-color: #01446B;
+}
+
+#historial h1 {
+	display: table;
+	margin: 0 auto 20px;
+	padding: 8px 16px 3px;
+	border-left: 3px solid;
+	border-right: 3px solid;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+#historial p {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#historial .mensaje-error {
+	display: table;
+	margin: 20px auto -10px;
+	padding: 8px 20px;
+	max-width: 90%;
+	font-size: 14px;
+	background-color: rgba(255, 0, 0, 0.4);
+	color: #FFFFFF;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#historial .datos-login__, 
+#historial .datos-consultas {
+	display: none;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+	header .navbar-brand img {
+		max-width: 80px;
+	}
+	
+	header .navbar-toggle .icon-bar {
+		height: 3px;
+	}
+	
+	header .navbar-default .navbar-toggle {
+		margin-right: 0;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border: none;
+	}
+	
+	header .navbar-nav > li {
+		padding: 5px 0;
+	}
+	
+	footer p {
+		text-align: center;
+	}
+	
+	footer .text-right {
+		text-align: center;
+	}
+	
+	.col-md-4l {
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	.col-md-4s {
+		float: none;
+		margin: 0 auto;
+		width: 75%;
+	}
+	
+	.col-md-10s {
+		float: none;
+		margin: 0 auto !important;
+		width: 82%;
+	}
+	
+	.top50 {
+		margin-bottom: 50px;
+	}
+	
+	#inicio h1 {
+		padding: 8px 30px 3px;
+		font-size: 22px;
+	}
+	
+	#nosotros h3 {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	#nosotros .img-responsive {
+		margin: 0 auto;
+		max-width: 100px;
+	}
+	
+	#ofrecemos .servicio {
+		opacity: 1;
+	}
+	
+	#ofrecemos .caja.pull-right {
+		float: none !important;
+	}
+	
+	#ofrecemos .row:last-of-type .sombra {
+		margin: 10px 0;
+	}
+	
+	#ofrecemos #info-especialidad .row > div {
+		margin-bottom: 30px;
+	}
+	
+	#contacto .container > div > p {
+		text-align: center;
+	}
+	
+	#contacto .info-clinica > img {
+		display: none;
+	}
+	
+	#historial .contenedor-logo img {
+		max-width: 50%;
+	}
+	
+	#historial p.text-center {
+		padding: 0 20px;
+	}
+	
+	#historial .campos-login {
+		margin: 30px auto 35px;
+		width: 90%;
+	}
+}
+
+@media (max-width: 991px) {
+	/* Menú de hamburguesa en SM */
+	.navbar-header {
+		float: none;
+	}
+	
+	.navbar-toggle {
+		display: block;
+	}
+	
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+	
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	
+	.navbar-nav {
+		float: none!important;
+		margin: 7.5px -15px;
+	}
+	
+	.navbar-nav>li {
+		float: none;
+	}
+	
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.navbar-text {
+		float: none;
+		margin: 15px 0;
+	}
+	
+	.navbar-collapse.collapse.in {
+		display: block!important;
+	}
+	
+	.collapsing {
+		overflow: hidden!important;
+	}
+    /* Fin menú de hamburguesa */
+    
+	header .navbar-default .navbar-toggle:focus, 
+	header .navbar-default .navbar-toggle:hover {
+		background-color: #01649F;
+	}
+	
+	header .navbar-default .navbar-toggle .icon-bar {
+		background-color: #01649F;
+	}
+	
+	header .navbar-default .navbar-toggle:focus .icon-bar, 
+	header .navbar-default .navbar-toggle:hover .icon-bar {
+		background-color: #FFFFFF;
+	}
+	
+	header .navbar-default .navbar-toggle:focus, 
+	header .navbar-default .navbar-toggle:hover {
+		background-color: #01649F;
+	}
+	
+	header .navbar-default .navbar-nav > li a {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	
+	header .navbar-brand {
+		margin-top: 5px;
+	}
+	
+	/* Distribuir menú a lo ancho*/
+	header .nav {
+		display: inline;
+		width: auto;
+	}
+	
+	header .navbar-nav > li {
+		display: block;
+	}
+	/* Fin distribuir menú */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	header .navbar-brand img {
+		max-width: 110px;
+	}
+	
+	header .navbar-toggle .icon-bar {
+		height: 4px;
+	}
+	
+	header .navbar-toggle .icon-bar {
+		width: 35px;
+	}
+	
+	header .navbar-toggle .icon-bar + .icon-bar {
+		margin-top: 5px;
+	}
+	
+	header .navbar-default .navbar-toggle {
+		margin-right: 0;
+		margin-top: 35px;
+		margin-bottom: 35px;
+		border: none;
+	}
+	
+	header .navbar-nav > li {
+		padding: 5px 0;
+	}
+	
+	#inicio h1 {
+		font-size: 32px;
+	}
+	
+	#ofrecemos .servicio {
+		opacity: 1;
+	}
+	
+	#ofrecemos .sombra {
+		margin: 21px 0 10px;
+	}
+	
+	#contacto {
+		padding: 35px 0 30px;
+	}
+	
+	#contacto .container > div > p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+}
