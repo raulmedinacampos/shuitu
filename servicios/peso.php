@@ -12,5 +12,11 @@
 			terapéuticos. Además de cumplir con un plan alimenticio no es
 			necesario dejar de comer ya que los resultados con esta técnica son
 			eficaces.</p>
+		<p class="text-justify">La función de la acupuntura en la nutrición es
+			de regularizar todos los órganos y sistemas ya que trata al paciente
+			en forma integral por medio de la auriculoterapia que es el mapa de
+			la oreja su forma de estimulación se utiliza con balines, tachuelas,
+			agujas, etc. Además se deberá cumplir con un plan de alimentación
+			basado en los índices de masa corporal que tenga cada paciente.</p>
 	</div>
 </div>

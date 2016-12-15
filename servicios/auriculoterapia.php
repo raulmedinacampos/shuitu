@@ -6,10 +6,10 @@
 
 <div class="row top50">
 	<div class="col-md-8 col-sm-10 col-xs-10 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
-		<p class="text-justify">Técnica que trabaja estimulando las zonas reflejas que existen en las
-			orejas con la aplicación de pequeñas semillas, tachuelas o imanes, que
-			se adhieren mediante un pequeño parche autoadhesivo e hipoalérgico.
-			Tratamiento que sirve para tratar diversas afecciones como ansiedad,
-			compulsión por la comida, estrés, sobre peso, obesidad, dolores etc.</p>
+		<p class="text-justify">La auriculoterapia es una rama de la medicina
+			tradicional china en la que estimulamos puntos auriculares con algún
+			método para obtener efectos terapéuticos a distancia. Los métodos de
+			estimulación en la actualidad y los comúnmente más utilizados son: la
+			tachuela o aguja, los balines y las semillas.</p>
 	</div>
 </div>
