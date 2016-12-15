@@ -23,17 +23,23 @@
 					</div>
 				</div>
 				<div class="col-md-4l contenedor-servicio">
-					<div class="col-md-12 caja sombra" data-servicio="quiropractica">
-						<img alt="Quiropráctica" src="images/thm-quiropractica.jpg" class="img-responsive" />
-						<p class="servicio">Quiropráctica</p>
+					<div class="col-md-10s caja pull-right">
+						<div class="col-md-12 caja sombra" data-servicio="quiropractica">
+							<img alt="Quiropráctica" src="images/thm-quiropractica.jpg" class="img-responsive" />
+							<p class="servicio">Quiropráctica</p>
+						</div>
+						<div class="col-md-12 caja sombra" data-servicio="kinesia">
+							<img alt="Kinesia" src="images/thm-kinesia.jpg" class="img-responsive" />
+							<p class="servicio">Kinesia</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4l contenedor-servicio">
-					<div class="col-md-10s caja sombra" data-servicio="nutricion">
-						<img alt="Nutrición" src="images/thm-nutricion.jpg" class="img-responsive" />
-						<p class="servicio">Nutrición</p>
+					<div class="col-md-10s caja sombra" data-servicio="tens">
+						<img alt="Tens" src="images/thm-tens.jpg" class="img-responsive" />
+						<p class="servicio">Tens</p>
 					</div>
 				</div>
 				<div class="col-md-4s contenedor-servicio">
