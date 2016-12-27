@@ -10,20 +10,6 @@
 		
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h5>Nuestros tratamientos</h5>
-				<ul>
-					<li>Lumbalgia</li>
-					<li>Osteoporosis</li>
-					<li>Artrosis</li>
-					<li>Escoliosis</li>
-					<li>Torticolis</li>
-					<li>Esguinses de articulaciones</li>
-					<li>Dolor de rodillas</li>
-					<li>Dorsalgia</li>
-				</ul>
-			</div>
-			
-			<div class="col-md-6 col-sm-6 col-xs-12">
 				<h5>Nuestras especialidades</h5>
 				<ul>
 					<li>Dolor de espalda baja</li>
@@ -32,6 +18,12 @@
 					<li>Osteoporosis</li>
 					<li>Artrosis</li>
 					<li>Lumbalgia</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<h5>&nbsp;</h5>
+				<ul>
 					<li>Escoliosis</li>
 					<li>Torticolis</li>
 					<li>Esguinses de articulaciones</li>

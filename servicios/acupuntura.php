@@ -27,6 +27,13 @@
 					<li>Gonalgias</li>
 					<li>Migraña</li>
 					<li>Neuralgias</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<h5>&nbsp;</h5>
+				<ul>
+					<li>Neuralgias</li>
 					<li>Artritis</li>
 					<li>Úlceras varicosas</li>
 					<li>Tensión nerviosa</li>
@@ -36,18 +43,6 @@
 					<li>Neuropatia diabética</li>
 					<li>Tendinitis</li>
 					<li>Hombro congelado</li>
-				</ul>
-			</div>
-			
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h5>Nuestras especialidades</h5>
-				<ul>
-					<li>Lumbalgia</li>
-					<li>Cercicalgia</li>
-					<li>Parálisis facial</li>
-					<li>Insuficiencia venosa</li>
-					<li>Tendinitis</li>
-					<li>Esguinses articulares y cervicales</li>
 				</ul>
 			</div>
 		</div>
