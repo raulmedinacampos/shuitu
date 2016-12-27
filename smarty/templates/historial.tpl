@@ -27,7 +27,7 @@
 				<div class="row">
 					<div class="col-md-7 col-sm-11 col-xs-11 contenedor-login" id="cont">
 						<div class="contenedor-logo">
-							<a href="/shuitu/web-2016/"><img alt="Logo Shui T'u" src="images/logo.png" class="img-responsive" /></a>
+							<a href="/"><img alt="Logo Shui T'u" src="images/logo.png" class="img-responsive" /></a>
 						</div>
 						
 						<h1>Mi historial</h1>

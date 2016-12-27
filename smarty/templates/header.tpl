@@ -1,9 +1,12 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="title" content="Clínica Shui T'u, especialistas en control de peso con medicina alternativa" />
+		<meta name="description" content="Especialistas en medicina alternativa para tratamientos como control de peso, dolor de espalda, parálisis facial, entre otros tratamientos." />
+		<meta name="keywords" content="acupuntura, quiropráctica, control de peso, nutrición, cromoterapia, dolor de espalda, bajar de peso, parálisis facial, diabetes, kinesia, tens" />
 		
 		<title>Clínica Shui T'u</title>
 		
@@ -34,7 +37,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="/shuitu/web-2016/"><img alt="Shui T'u" src="images/logo.png" /></a>
+							<a class="navbar-brand" href="/"><img alt="Shui T'u" src="images/logo.png" /></a>
 						</div>
 						
 						<!-- Collect the nav links, forms, and other content for toggling -->
