@@ -26,7 +26,6 @@
 					<li>Gonartrosis</li>
 					<li>Gonalgias</li>
 					<li>Migraña</li>
-					<li>Neuralgias</li>
 				</ul>
 			</div>
 			

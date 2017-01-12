@@ -19,7 +19,7 @@
 		<footer>
 			<div class="container">
 				<div class="col-md-6 col-sm-8">
-					<p>Shui T'u. Derechos Reservados &copy; 2010.</p>
+					<p>Acupuntura Oriental STU. Derechos Reservados &copy; 2010.</p>
 				</div>
 				<div class="col-md-6 text-right">
 					<p><a href="#" class="terminos-de-uso">Términos de uso</a></p>

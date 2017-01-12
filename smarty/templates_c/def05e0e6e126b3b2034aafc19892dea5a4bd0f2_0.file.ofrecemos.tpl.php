@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2016-11-15 10:07:22
+/* Smarty version 3.1.30, created on 2016-12-15 06:43:00
   from "C:\xampp\htdocs\shuitu\web-2016\smarty\templates\ofrecemos.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_582ad04ad60496_07829415',
+  'unifunc' => 'content_58522d649f2f70_46082102',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'def05e0e6e126b3b2034aafc19892dea5a4bd0f2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\shuitu\\web-2016\\smarty\\templates\\ofrecemos.tpl',
-      1 => 1479198790,
+      1 => 1481780578,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_582ad04ad60496_07829415 (Smarty_Internal_Template $_smarty_tpl) {
+function content_58522d649f2f70_46082102 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section id="ofrecemos">
 	<div class="container">
@@ -47,17 +47,23 @@ function content_582ad04ad60496_07829415 (Smarty_Internal_Template $_smarty_tpl)
 					</div>
 				</div>
 				<div class="col-md-4l contenedor-servicio">
-					<div class="col-md-12 caja sombra" data-servicio="quiropractica">
-						<img alt="Quiropráctica" src="images/thm-quiropractica.jpg" class="img-responsive" />
-						<p class="servicio">Quiropráctica</p>
+					<div class="col-md-10s caja pull-right">
+						<div class="col-md-12 caja sombra" data-servicio="quiropractica">
+							<img alt="Quiropráctica" src="images/thm-quiropractica.jpg" class="img-responsive" />
+							<p class="servicio">Quiropráctica</p>
+						</div>
+						<div class="col-md-12 caja sombra" data-servicio="kinesia">
+							<img alt="Kinesia" src="images/thm-kinesia.jpg" class="img-responsive" />
+							<p class="servicio">Kinesia</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4l contenedor-servicio">
-					<div class="col-md-10s caja sombra" data-servicio="nutricion">
-						<img alt="Nutrición" src="images/thm-nutricion.jpg" class="img-responsive" />
-						<p class="servicio">Nutrición</p>
+					<div class="col-md-10s caja sombra" data-servicio="tens">
+						<img alt="Tens" src="images/thm-tens.jpg" class="img-responsive" />
+						<p class="servicio">Tens</p>
 					</div>
 				</div>
 				<div class="col-md-4s contenedor-servicio">
